@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { languages } = require('./languages');
 
-const targetScopes = ['source.js', 'source.jsx', 'source.js.jsx', 'source.ts', 'source.tsx']
+const targetScopes = ['source.powershell']
 
 const basicGrammarTemplate = {
     "fileTypes": [],

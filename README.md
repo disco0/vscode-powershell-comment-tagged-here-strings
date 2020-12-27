@@ -27,53 +27,28 @@ The language identifier comment must appear before the opening backtick for the 
 | Language      | Supported Identifiers|
 | ------------- | ---------------------|
 | css | css, css.erb |
-| basic | html, htm, shtml, xhtml, inc, tmpl, tpl |
 | ini | ini, conf |
-| java | java, bsh |
 | lua | lua |
-| makefile | Makefile, makefile, GNUmakefile, OCamlMakefile |
-| perl | perl, pl, pm, pod, t, PL, psgi, vcl |
-| r | R, r, s, S, Rprofile |
-| ruby | ruby, rb, rbx, rjs, Rakefile, rake, cgi, fcgi, gemspec, irbrc, Capfile, ru, prawn, Cheffile, Gemfile, Guardfile, Hobofile, Vagrantfile, Appraisals, Rantfile, Berksfile, Berksfile.lock, Thorfile, Puppetfile |
-| php | php, php3, php4, php5, phpt, phtml, aw, ctp |
-| sql | sql, ddl, dml |
 | vs_net | vb |
 | xml | xml, xsd, tld, jsp, pt, cpt, dtml, rss, opml |
 | xsl | xsl, xslt |
 | yaml | yaml, yml |
-| dosbatch | bat, batch |
-| clojure | clj, cljs, clojure |
-| coffee | coffee, Cakefile, coffee.erb |
 | c | c, h |
 | cpp | cpp, c++, cxx |
-| diff | patch, diff, rej |
+| csharp | cs, csharp, c# |
 | dockerfile | dockerfile, Dockerfile |
 | git_commit | COMMIT_EDITMSG, MERGE_MSG |
 | git_rebase | git-rebase-todo |
 | go | go, golang |
-| graphql | qgl, graphql |
-| groovy | groovy, gvy |
-| pug | jade, pug |
 | js | js, jsx, javascript, es6, mjs |
 | js_regexp | regexp |
 | json | json, sublime-settings, sublime-menu, sublime-keymap, sublime-mousemap, sublime-theme, sublime-build, sublime-project, sublime-completions |
-| less | less |
 | md | md, markdown |
-| objc | objectivec, objective-c, mm, objc, obj-c, m, h |
-| scss | scss |
-| perl6 | perl6, p6, pl6, pm6, nqp |
 | powershell | powershell, ps1, psm1, psd1 |
-| python | python, py, py3, rpy, pyw, cpy, SConstruct, Sconstruct, sconstruct, SConscript, gyp, gypi |
-| regexp_python | re |
-| rust | rust, rs |
-| scala | scala, sbt |
 | shell | shell, sh, bash, zsh, bashrc, bash_profile, bash_login, profile, bash_logout, .textmate_init |
 | ts | typescript, ts |
 | tsx | tsx |
-| csharp | cs, csharp, c# |
 | fsharp | fs, fsharp, f# |
-| dart | dart |
-| glsl | glsl |
 <!--END_LANG_TABLE-->
 
 ## Advanced language support
