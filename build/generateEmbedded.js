@@ -2,10 +2,10 @@
 
 const fs = require('fs');
 const path = require('path');
-const { languages } = require('./languages');
+const { languages: embeddedLanguages } = /** @type {typeof import('./languages')} */ ( require('./languages') );
 
 const getEmbedded = () => {
-    return languages.reduce((out, language) => {
+    return embeddedLanguages.reduce((out, language) => {
             out[`meta.embedded.block.${language.name}`] = language.language;
             return out;
         }, {});

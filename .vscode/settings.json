@@ -1,0 +1,6 @@
+{
+    "files.associations": 
+    {
+        "**/syntaxes/*.json": "json-tmlanguage"
+    }
+}

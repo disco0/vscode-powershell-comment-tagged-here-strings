@@ -1,0 +1,6 @@
+{
+  // Disabled to hide useless PSUseDeclaredVarsMoreThanAssignments warnings (and probably others)
+  "powershell.scriptAnalysis.enable": false,
+  // Config file must be made and set below to enable scriptAnalysis (w/o spam)
+  // "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1"
+}

@@ -1,0 +1,17 @@
+{
+    "include": 
+    [
+        "./index.d.ts",
+        "./*.js"
+    ],
+    "compilerOptions": 
+    {
+        "checkJs": true,
+        "allowJs": true,
+
+        "noEmit": true,
+
+        "target": "ESNext",
+        "module": "CommonJS"
+    }
+}
